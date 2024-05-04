@@ -1,0 +1,56 @@
+body {
+  font-family: serif;
+  background-color: rgb(248, 234, 216);
+  padding: 0 200px;
+  text-align: center;
+}
+h1 {
+  margin: 0 0;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about {
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.fileWithDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+#first_name {
+  margin-right: 10px;
+}
+
+#name {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#phone_num,
+#mail,
+#errorPass,
+#errorConPass {
+  margin-bottom: 20px;
+}
+
+input#first_name:hover,
+input#last_name:hover,
+input#phone_num:hover,
+input#mail:hover,
+input#password:hover,
+input#password_confession:hover,
+button:hover {
+  border-color: rgb(250, 173, 110);
+  border-style: solid;
+}
+#errorPass,
+#errorConPass {
+  text-align: left;
+  font-size: 14px;
+}

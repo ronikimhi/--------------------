@@ -1,0 +1,41 @@
+<!-- Roni Kimhi 315298182 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="designIndex.css" />
+    <script src="answerAll.js" defer></script>
+    <!--the defer makes the js to start after the html-->
+    <title>Registration</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+  </head>
+  <body>
+    <img src="logo.png" alt="Logo" id="logo" />
+    <h1>Registration</h1>
+    <h4>Welcome to the Mitzi Net family!</h4>
+    <p class="about">
+      This club member gives you points you can use in future purchases and a
+      massive discount for a variety of products!
+    </p>
+
+    <div class="fileWithDetails">
+      <div id="name">
+        <input id="first_name" placeholder="First name" type="text" />
+        <input id="last_name" placeholder="Last name" type="text" />
+      </div>
+      <input id="phone_num" placeholder="Phone number" type="text" />
+      <input id="mail" placeholder="Email" type="text" />
+      <input id="password" placeholder="Password" type="text" />
+      <span id="errorPass" class="error"></span>
+      <input
+        id="password_confession"
+        placeholder="Password confession"
+        type="text"
+      />
+      <span id="errorConPass" class="error"></span>
+      <button onclick="checkAllFields()">register</button>
+    </div>
+  </body>
+</html>
